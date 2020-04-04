@@ -44,3 +44,18 @@ a{
 a:hover{
   color: white;
 }
+
+#picture_gallery{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: center; 
+}
+
+.gallery_items{
+  max-width: 30vw;
+}
+
+img {
+    image-orientation: from-image;
+}

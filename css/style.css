@@ -64,3 +64,12 @@ a:hover{
 img {
     image-orientation: from-image;
 }
+#boneheader {
+  width: 150px;
+}
+
+#bone {
+  position: absolute;
+  z-index: 9;
+  text-align: center;
+}
